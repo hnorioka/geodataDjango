@@ -57,3 +57,53 @@ a:hover::after{
     width: 0%;
     background-color: #ffffff;
 }
+
+#cover{
+    width: 5%;
+}
+
+.header {
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+h1{
+    color: #7B68EE;
+    font-size: 2.3rem;
+    letter-spacing: 0.2em;
+}
+
+.main-left{
+    height: 100%;
+    display: grid;
+    place-content: left;
+    margin: 6.5rem 7.5rem;
+}
+.text{ 
+    width: 40.7rem;
+    text-align: center;
+    text-align: justify;
+    font-size: 1.2rem; 
+    padding: 3.5rem 0;
+    color: #7B68EE;
+}
+
+.main-right{
+    height: 100%;
+    display: grid;
+    place-content: left;
+    margin: 8.5rem 7.5rem;
+}
+
+#img-right{
+    width: 30.5rem;
+}
+
+.main-center{
+    display: flex;
+    justify-content: center;
+}

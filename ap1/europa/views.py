@@ -13,6 +13,3 @@ def franca(request):
 
 def italia(request):
     return render(request, "italia.html")
-
-def voltar(request):
-    return render(request, "indexAM.html")

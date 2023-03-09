@@ -10,6 +10,3 @@ def canada(request):
 
 def eua(request):
     return render(request, "eua.html")
-
-def voltar(request):
-    return render(request, "indexEU.html")
